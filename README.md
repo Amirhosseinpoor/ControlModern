@@ -1,6 +1,4 @@
-Here’s a polished **README text** for your *Modern Control — Ball & Beam* project, without excessive details and not in code form:
 
----
 
 # Modern Control — Ball & Beam System
 
