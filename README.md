@@ -1,67 +1,20 @@
-Here’s a clean, professional, and **not excessive** `README.md` draft for your **Modern Control — Ball & Beam** project:
+Here’s a polished **README text** for your *Modern Control — Ball & Beam* project, without excessive details and not in code form:
 
-```markdown
+---
+
 # Modern Control — Ball & Beam System
 
-## Overview
-This project implements modern control techniques to stabilize and control a **ball and beam system**.  
-The main objectives were:
-- Modeling the nonlinear dynamics
-- Linearizing around equilibrium
-- Designing state-feedback controllers with integral action
-- Implementing a Luenberger observer for partial-state measurement
-- Verifying performance on both linearized and nonlinear models
+This project focuses on applying modern control techniques to a ball-and-beam system. The goal was to stabilize the ball and achieve accurate reference tracking using state-space methods.
 
----
+**Key points:**
 
-## Key Features
-- **System Modeling**  
-  - Derived nonlinear equations of motion for the ball–beam system  
-  - Built state-space representation for analysis and simulation  
+* Derived nonlinear dynamics and built the state-space model of the ball–beam system.
+* Linearized the system around the equilibrium point and verified controllability and observability.
+* Designed state-feedback controllers with pole placement and added integral action to remove steady-state error.
+* Implemented a Luenberger observer to estimate unmeasured states and enable output-feedback control.
+* Simulated both the linearized and nonlinear systems in MATLAB/Simulink, verifying stability, robustness, and tracking performance.
 
-- **Control Design**  
-  - Linearization around the operating point  
-  - Controllability and observability analysis  
-  - State-feedback via pole placement  
-  - Integral action for eliminating steady-state error  
-  - Luenberger observer to estimate unmeasured states  
+**Tools used:** MATLAB, Simulink
 
-- **Simulation**  
-  - MATLAB/Simulink implementation  
-  - Step and reference tracking responses  
-  - Comparison between linearized and nonlinear system behavior  
+**Outcome:** The designed controller successfully stabilized the system, ensured accurate tracking, and demonstrated robustness against disturbances.
 
----
-
-## Tools & Technologies
-- MATLAB  
-- Simulink  
-
----
-
-## Results
-- Successful stabilization of the ball on the beam  
-- Accurate reference tracking with minimal steady-state error  
-- Robustness tested under different initial conditions and disturbances  
-
----
-
-## Repository Structure
-```
-
-├── src/             # MATLAB scripts for modeling and control design
-├── sim/             # Simulink models
-├── docs/            # Report and related documents
-└── README.md        # Project overview
-
-```
-
----
-
-## Authors
-Amir Hosseinpoor  
-Course Project — Modern Control (2025)  
-K. N. Toosi University of Technology
-```
-
-Would you like me to also prepare a **shorter version** (like 8–10 lines total, no subsections) in case you want a minimal `README` for GitHub?
